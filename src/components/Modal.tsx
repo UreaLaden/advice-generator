@@ -8,7 +8,6 @@ export const Modal = (props: any) => {
   React.useEffect(() => {
     if (data === null) {
       fetchAdvice().then((value) => {
-        console.log(value.slip);
         setData(value.slip);
       });
     }
