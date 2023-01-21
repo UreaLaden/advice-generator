@@ -1,6 +1,7 @@
 import { styles } from "./App.css";
 import Modal from "./components/Modal";
 import { registerIcons } from "@fluentui/react";
+import * as React from "react";
 
 registerIcons({
   icons: {
@@ -40,7 +41,7 @@ registerIcons({
 function App() {
   return (
     <div className={styles.appContainer}>
-      <Modal />
+      <Modal  />
     </div>
   );
 }

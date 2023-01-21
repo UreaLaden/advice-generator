@@ -3,7 +3,7 @@ export const fetchAdvice = () =>{
     const promise = fetch(url);
     return promise.then(response =>{return response.json();})
     .then(data =>{
-        return Promise.resolve(data)
+        return data;
     }).catch(error => {
         console.error(`Something went wrong with the request: ${error.message}`);
     })

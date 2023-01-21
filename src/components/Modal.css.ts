@@ -5,7 +5,7 @@ export const styles = mergeStyleSets({
     modalContainer:{
         backgroundColor:Colors.DarkGrayishBlue,
         width:"50%",
-        height:"50%",
+        height:"max-content",
         margin:'auto',
         borderRadius:"25px",
         boxShadow:`5px 5px 80px 5px rgba(0,0,0,0.2)`
@@ -16,7 +16,8 @@ export const styles = mergeStyleSets({
         flexDirection:"column",
         alignItems:"center",
         position:'relative',
-        padding:"5%"
+        padding:"5%",
+        justifyContent:"center",
     },
     modalHeader:{
         color:Colors.NeonGreen,
@@ -33,19 +34,20 @@ export const styles = mergeStyleSets({
         textAlign:'center'
     },
     modalDivider:{
-        margin:"5% 0"
+        margin:"5% 0",
+        transform:"scale(.65)"
     },
     modalSeparator:{},
     diceContainer:{
-        height:"8vh",
-        width:"5vw",
+        height:"7vh",
+        width:"6vw",
         backgroundColor:Colors.NeonGreen,
         display:'flex',
         alignItems:'center',
         justifyContent:"center",
         borderRadius:"50%",
         position:"absolute",
-        bottom:"6%",
+        bottom:"-10%",
         ":hover":{
             border:'.5px solid rgba(0,0,0,0.7)',
             boxShadow:`0px 0px 50px 1px ${Colors.NeonGreen}`,
