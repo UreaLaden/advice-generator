@@ -8,7 +8,10 @@ export const styles = mergeStyleSets({
         height:"max-content",
         margin:'auto',
         borderRadius:"25px",
-        boxShadow:`5px 5px 80px 5px rgba(0,0,0,0.2)`
+        boxShadow:`5px 5px 80px 5px rgba(0,0,0,0.2)`,
+        "@media screen and (max-width:750px)":{
+            width:"90%",
+        }
     },
     modalContentContainer:{
         height:"100%",
@@ -24,14 +27,21 @@ export const styles = mergeStyleSets({
         fontSize:'1.5vw',
         margin:'2.5%',
         letterSpacing:".3vw",
-        
+        "@media screen and (max-width:750px)":{
+            fontSize:"2.5vw",
+            letterSpacing:".65vw",
+            margin:"4%"
+        }
     },
     modalAdvice:{
         fontSize:"3vw",
         color:"#FFF",
         minHeight:'30%',        
         fontWeight:"600",
-        textAlign:'center'
+        textAlign:'center',
+        "@media screen and (max-width:750px)":{
+            fontSize:"5vw"
+        }
     },
     modalDivider:{
         margin:"5% 0",
@@ -39,7 +49,7 @@ export const styles = mergeStyleSets({
     },
     modalSeparator:{},
     diceContainer:{
-        height:"7vh",
+        height:"6.5vh",
         width:"6vw",
         backgroundColor:Colors.NeonGreen,
         display:'flex',
@@ -47,12 +57,19 @@ export const styles = mergeStyleSets({
         justifyContent:"center",
         borderRadius:"50%",
         position:"absolute",
-        bottom:"-10%",
+        bottom:"-3.5vh",
         ":hover":{
             border:'.5px solid rgba(0,0,0,0.7)',
             boxShadow:`0px 0px 50px 1px ${Colors.NeonGreen}`,
             cursor:'pointer',
+        },
+        "@media screen and (max-width:750px)":{
+            width:"10vw",
+            height:"12vw",
+            bottom:"-2.7vh"
         }
     },
-    dice:{}
+    dice:{
+        transform:"scale(.8)"
+    }
 })
