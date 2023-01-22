@@ -49,8 +49,8 @@ export const styles = mergeStyleSets({
     },
     modalSeparator:{},
     diceContainer:{
-        height:"6.5vh",
-        width:"6vw",
+        height:"48px",
+        width:"48px",
         backgroundColor:Colors.NeonGreen,
         display:'flex',
         alignItems:'center',
