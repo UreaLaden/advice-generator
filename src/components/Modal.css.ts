@@ -10,7 +10,7 @@ export const styles = mergeStyleSets({
         borderRadius:"25px",
         boxShadow:`5px 5px 80px 5px rgba(0,0,0,0.2)`,
         "@media screen and (max-width:750px)":{
-            width:"90%",
+            width:"82%",
         }
     },
     modalContentContainer:{
