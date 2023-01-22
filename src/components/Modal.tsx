@@ -1,7 +1,6 @@
 import { Icon } from "@fluentui/react";
 import { styles } from "./Modal.css";
 import * as React from "react";
-import { fetchAdvice } from "../utils/helper";
 
 export const Modal = (props: any) => {
   const [data, setData] = React.useState<any>({});
@@ -21,7 +20,7 @@ export const Modal = (props: any) => {
 
   React.useEffect(() => {
     const url = "https://api.adviceslip.com/advice";
-    if (data === undefined || requestUpdate) {
+    if (data.slip === undefined || requestUpdate === true) {
       fetch(url, {
         method: "GET",
         cache: "reload",
