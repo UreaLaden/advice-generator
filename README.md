@@ -1,46 +1,65 @@
-# Getting Started with Create React App
+# Frontend Mentor - Advice generator app solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+- [Author](#author)
 
-### `npm start`
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Overview
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### The challenge
 
-### `npm test`
+Users should be able to:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Generate a new piece of advice by clicking the dice icon
 
-### `npm run build`
+### Screenshot
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Desktop](./public/images/desktop_screenshot.jpg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Mobile](./public/images/mobile_screenshot.jpg)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
-### `npm run eject`
+Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Links
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-## Learn More
+## My process
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Built with
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- [React](https://reactjs.org/) - JS library
+- FluentUI
+
+### Continued development
+
+This project showed me that I need more practice working with external api's and databases.
+
+## Author
+
+- Website - [Leaundrae Mckinney](http://linkedin.com/in/customized-url)
+- Frontend Mentor - [@urealaden](https://www.frontendmentor.io/profile/urealaden)
